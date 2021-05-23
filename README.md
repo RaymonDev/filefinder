@@ -16,7 +16,7 @@ findfile.exe
 ```
 into the System32 folder. After that, open the terminal and type 
 ```
->findfile
+> findfile
 ```
 
 Then, the code should be executed.
@@ -37,7 +37,7 @@ None
 - run the terminal
 - Type:
 ```
->findfile
+> findfile
 ```
 - Alternatively: Run the python script
 
