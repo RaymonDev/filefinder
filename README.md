@@ -21,9 +21,10 @@ into the System32 folder. After that, open the terminal and type
 
 Then, the code should be executed.
 
-The code then returns the path to the file and the number of posts checked and founded.
+The code returns the path to the file and the number of posts checked and founded.
 ## Example:
 
+![Example of findfile](example.PNG)
 
 
 ## Requisites:
