@@ -38,7 +38,7 @@ def findfile(nameofile, mode, count=0, found=0): #define function with parameter
 
     for r, d, f in os.walk(path): #for r,d,f in the directory
         for file in f: #for every file in C:\\ and subdirectories
-            if nameofile == file: #check if the files name is the same as the file found
+            if nameofile in file: #check if the files name is in the file found
                 found +=1 #adds one to the founded files counter
                 print(f"\n\t{os.path.join(r, file)}") #if it does, grabs the directory of the file
             count += 1
@@ -50,7 +50,7 @@ def findfile(nameofile, mode, count=0, found=0): #define function with parameter
 
     #if both of parameters are 0
     if found == 0 and count == 0:
-    	print("\n\tNo files found. If you are using a custom path, check it and try again.")
+        print("\n\tNo files found. If you are using a custom path, check it and try again.")
 
 
 
@@ -60,4 +60,3 @@ if __name__ == '__main__':
     mode = mode.lower() #lowercase the input
     print("\t--------------------------------------------")
     findfile(filename, mode) #call the function
-    input("\n\tPress enter to finish...")
