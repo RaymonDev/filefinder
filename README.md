@@ -1,8 +1,8 @@
 # File Finder
-This script finds any lost file in the users computer. It can be implemented as a CMD command.
+This script finds any lost file in the users computer. It's meant to be a CMD/Terminal command.
 
 ## How it works
-This script maps the computer looking for a specified file. When the user inputs the name of the file, they are also asked to input the path where they want to search. There's three options:
+This script maps the computer looking for a specified file. When the user inputs the name (no need to be complete, it could be part of it) and/or extension of the file, they are also asked to input the path where they want to search. There's three options:
 
 ```
 - desk: Looks for the specifid file in the destkop. 
@@ -26,6 +26,10 @@ The code returns the path to the file and the number of posts checked and founde
 
 ![Example of findfile](example.PNG)
 
+Example of name:
+
+- File that we are looking for: Family.jpg
+- Possible names to give to the program:  family / fam / .jpg / Family / ...
 
 ## Requisites:
 
@@ -35,16 +39,15 @@ None
 
 - Download or clone the repository.
 - Copy findfile.exe to System32
-- run the terminal
+- Execute the terminal
 - Type:
 ```
 > findfile
 ```
-- Alternatively: Run the python script
 
 ## How to use:
 - Execute the findfile command or execute the python file
-- Specify the name and extension of the file (or just extension)
+- Specify the name of the file (no need to be exact) and/or the extension.
 - Specify the mode (desk/loc/cus)
 - Wait until the script stops running
 
