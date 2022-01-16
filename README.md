@@ -16,7 +16,7 @@ findfile.exe
 ```
 into the System32 folder. After that, open the terminal and type 
 ```
-> findfile
+findfile
 ```
 
 Then, the code should be executed.
