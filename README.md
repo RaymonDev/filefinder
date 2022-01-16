@@ -2,7 +2,7 @@
 This script finds any lost file in the users computer. It's meant to be a CMD/Terminal command.
 
 ## How it works
-This script maps the computer looking for a specified file. When the user inputs the name (no need to be complete, it could be part of it) and/or extension of the file, they are also asked to input the path where they want to search. There's three options:
+This script maps the computer looking for a specified file. When the user inputs the name (no need to be complete, it could be just part of it) and/or extension of the file, they are also asked to input the path where they want to search. There's three options:
 
 ```
 - desk: Looks for the specifid file in the destkop. 
